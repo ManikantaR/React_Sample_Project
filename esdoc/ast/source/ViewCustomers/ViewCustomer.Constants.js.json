@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "RECIEVE_CUSTOMERS",
+              "range": [
+                29,
+                46
+              ],
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 13
+                },
+                "end": {
+                  "line": 2,
+                  "column": 30
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "RECIEVE_CUSTOMERS",
+              "raw": "'RECIEVE_CUSTOMERS'",
+              "range": [
+                49,
+                68
+              ],
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 33
+                },
+                "end": {
+                  "line": 2,
+                  "column": 52
+                }
+              }
+            },
+            "range": [
+              29,
+              68
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 13
+              },
+              "end": {
+                "line": 2,
+                "column": 52
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          23,
+          69
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 7
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": " Constants ",
+            "range": [
+              0,
+              15
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 15
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        16,
+        69
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": " Constants ",
+          "range": [
+            0,
+            15
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "CUSTOMERS_LIST_SERVICE",
+              "range": [
+                83,
+                105
+              ],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 13
+                },
+                "end": {
+                  "line": 3,
+                  "column": 35
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "http://localhost:3000/proxy/customers",
+              "raw": "'http://localhost:3000/proxy/customers'",
+              "range": [
+                108,
+                147
+              ],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 38
+                },
+                "end": {
+                  "line": 3,
+                  "column": 77
+                }
+              }
+            },
+            "range": [
+              83,
+              147
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 13
+              },
+              "end": {
+                "line": 3,
+                "column": 77
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          77,
+          148
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 7
+          },
+          "end": {
+            "line": 3,
+            "column": 78
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        70,
+        148
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 78
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    16,
+    148
+  ],
+  "loc": {
+    "start": {
+      "line": 2,
+      "column": 0
+    },
+    "end": {
+      "line": 3,
+      "column": 78
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": " Constants ",
+      "range": [
+        0,
+        15
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "source": "./src",
+  "destination": "./esdoc",
+  "manual": {
+    "overview": ["./manual/overview.md"]
+  }
+}
