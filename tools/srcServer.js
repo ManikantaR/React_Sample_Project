@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+/* eslint-disable */
 
 /* Module Dependencies */
 import express from 'express';
@@ -42,3 +42,5 @@ app.listen(port, function(err) {
     open(`http://localhost:${port}`);
   }
 });
+
+/* eslint-enable */

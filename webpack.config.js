@@ -1,9 +1,9 @@
 /* Module Dependencies */
-import webpack from 'webpack';
-import path from 'path';
+var webpack = require('webpack');
+var path = require('path');
 
 /* Webpack Configuration */
-export default {
+const config= {
   debug: true,
   devtool: 'cheap-module-eval-source-map',
   noInfo: false,
@@ -36,3 +36,5 @@ export default {
     ]
   }
 };
+
+module.exports = config;
