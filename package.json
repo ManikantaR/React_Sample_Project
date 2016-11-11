@@ -1,7 +1,7 @@
 {
-  "name": "SP-3",
+  "name": "Sampleproject",
   "version": "1.0.0",
-  "description": "Seed Project 3",
+  "description": "Sampleproject",
     "nyc": {
     "exclude": [
       "node_modules",
@@ -21,7 +21,7 @@
     "build": "webpack -p --progress --config webpack.config.js",
     "css": "gulp css",
     "lint:watch": "npm run lint -- --watch",
-    "test": "nyc --reporter=html --reporter=text mocha --reporter spec tools/testSetup.js \"test/**/*.test.js\"",
+    "test": "nyc --reporter=html --reporter=text mocha --reporter xunit tools/testSetup.js \"test/**/*.test.js\" > testresults/report.xml",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Jeeva",
